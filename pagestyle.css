@@ -1,0 +1,286 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+::-webkit-scrollbar {
+    width: 1vw;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 5px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(54, 41, 233); 
+    border-radius: 5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #69aac9; 
+  }
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menusuperior{
+    background-color: rgb(68, 68, 68);
+    border-radius: 10px;
+}
+
+#menusuperior ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menusuperior ul li {
+    display: inline;
+}
+
+#menusuperior ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    
+}
+
+#menusuperior ul li a:hover {
+    background-color: rgb(24, 139, 233);
+}
+
+#menusuperior ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+body{
+    width: 100%;
+    height: 100%;
+}
+main {
+    position: relative;
+    margin: 0 auto;
+    width: 980px;
+}
+.logo {
+    width: 90%;
+    height: 45px;
+    padding: 15px;
+    color: #ebe0e0;
+}
+.menuprincipal{
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+    height: 65px;
+    
+}
+.titulomenu{
+
+    color: #ebe0e0;
+
+}
+.redes-sociais ul li {
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+
+}
+.redes-sociais{
+    width: 25%;
+    float: right; 
+}
+
+#menusuperior{
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+}
+
+#menusuperior ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+
+#menusuperior ul li {
+    display: inline;
+}
+
+#menusuperior ul li a {
+    color: rgb(3, 70, 29);
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+    
+}
+
+#menusuperior ul li a:hover {
+    background-color: rgb(66, 233, 24);
+}
+
+#menusuperior ul li:last-child a {
+    float: right;
+    background-color: rgb(24, 139, 233);
+}
+.menucascata:hover .menucascata-menu {
+    display: block;
+    position: absolute;
+    transform: translate3d(5px, 28px, 0px); /* distancia entre menu e btn */
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+}
+.menucascata {
+    display: inline-block; /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela*/
+    list-style: none; /* rita a "bolinha" do LI*/
+}
+#destaquecard{position:relative;padding:4px;border-radius: 15px;}
+#destaquecard:hover{transform: scale(1.05);}
+#destaquecard:cursortouch{transform: scale(1,05);}
+#conteudo-1 {
+    float:left;
+    width:440px;
+    background:rgb(255, 255, 255);
+}
+#conteudo-2 {
+    float:right;
+    width:320px;
+}
+#conteudo-3 {
+    float:right;
+    width:320px;
+}
+.menucascata:hover .menucascata-menu {
+    display: block;
+    position: absolute;
+    transform: translate3d(5px, 28px, 0px); /* distancia entre menu e btn */
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+}
+.menucascata {
+    display: inline-block; /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela*/
+    list-style: none; /* rita a "bolinha" do LI*/
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+    position: absolute;
+    transform: translate3d(5px, 28px, 0px); /* distancia entre menu e btn */
+    top: 0px;
+    left: 0px;
+    will-change: transform;
+}
+.dropdown {
+    display: inline-block; /* deixa o LO do "tamanho do próprio texto" e não da largura inteira da tela*/
+    list-style: none; /* rita a "bolinha" do LI*/
+}
+
+body{
+
+    background: rgb(105, 105, 105);
+
+    font: normal 15pt Arial;
+
+    margin: 0 auto;
+
+    width:100%;
+
+}
+section {
+
+    background: rgb(243, 242, 242);
+
+    border-radius: 5px;
+
+    padding: 5px;
+
+    width: 550px;
+
+    margin: auto;
+
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+	
+	overflow-y: scroll;
+	
+	height :70vh;
+
+}
+.titulologo{
+
+    color: #38ee38;
+
+}
+.titulocard{
+
+    color: #1a1a1a;
+
+}
+.desccard{
+
+    color: #1d1d1d;
+
+}
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+.card-1{
+    background:rgb(233, 233, 233);
+    border-radius: 15px;
+    background-image: url(https://ionicframework.com/img/getting-started/ionic-native-card.png);
+    background-repeat: no-repeat;
+    padding: 15px;
+      background-position: right;
+      background-size: 80px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.555);
+      
+}
+.box {
+    border-radius: 5px;
+    width: 95.33%;
+  }
+.popbox {
+width: 300px;
+height: 300px;
+background: #fff;
+}
+.cabecalho-1 {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 10px;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center
+    }
+
+@media(max-width: 990px){
+    .card{
+      margin: 20px;
+    }
+  }
+  .botao:active {
+    position:relative;
+    top:2px;}
+  .botao-gold {
+    border-color:#eb9b48;
+    background:linear-gradient(to bottom, #f7d6b3 5%, #eb9b48 100%);
+    box-shadow:inset 0px 1px 0px 0px #fdf7f0;
+    color:#333;
+    text-shadow:0px 1px 0px #ffee66;
+    
+    }
+    .botao-gold:hover {
+        background:linear-gradient(to bottom, #eb9b48 5%, #f7d6b3 100%);
+        }
